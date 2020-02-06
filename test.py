@@ -6,7 +6,7 @@ import concurrent.futures
 from ctypes.wintypes import MSG
 from wkeStruct import *
 
-NODE_DLL_FILE_PATH = 'D:/yiguo/pyblink/lib/node.dll'
+NODE_DLL_FILE_PATH = './node.dll'
 
 
 def method(proto_type):
